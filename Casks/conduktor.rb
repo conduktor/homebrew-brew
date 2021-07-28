@@ -1,6 +1,6 @@
 cask "conduktor" do
-  version "2.16.5"
-  sha256 "4605862f8dc95147a6ba2decc3b1c74dc951e4e3d43de59df1ba5e08ed0b40bc"
+  version "2.16.6"
+  sha256 "30fc3cd4d78a30220e9cd4b89f932744198da383b33c91d97e07a5eb35885303"
 
   url "https://github.com/conduktor/builds/releases/download/v#{version}/Conduktor-#{version}.pkg", verified: "https://github.com/conduktor"
   name "conduktor"
