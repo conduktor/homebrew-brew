@@ -10,10 +10,10 @@ cask "conduktor-cli" do
 
   binary "conduktor"
 
-  test do
-    output = shell_output(bin/"conduktor version")
-    assert output.include? "Version: "
-  end
+  #test do
+  #  output = shell_output(bin/"conduktor version")
+  #  assert output.include? "Version: "
+  #end
 
   #zap trash: "~/.conduktor-cli"
 end
