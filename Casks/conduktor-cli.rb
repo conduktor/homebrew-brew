@@ -9,12 +9,5 @@ cask "conduktor-cli" do
   homepage "https://www.conduktor.io/"
 
   binary "conduktor"
-
-  #test do
-  #  output = shell_output(bin/"conduktor version")
-  #  assert output.include? "Version: "
-  #end
-
-  #zap trash: "~/.conduktor-cli"
 end
   
