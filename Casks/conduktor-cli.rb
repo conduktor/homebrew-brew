@@ -1,4 +1,4 @@
-class Conduktorctl < Formula
+cask "conduktor-cli" do
   name "Conduktor CLI"
   version "0.1.0"
   sha256 "d76471829c0c6493faf0a1f4d7baac85d8da61fc0254cdaf80c76b8bfa76d8f0"
