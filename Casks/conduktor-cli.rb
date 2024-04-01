@@ -8,7 +8,7 @@ cask "conduktor-cli" do
   #license "Apache-2.0"
   #head "https://github.com/conduktor/ctl.git", branch: "main"
 
-  depends_on "go" => :build
+  depends_on formula "go" => :build
 
   def install
     system "go", "build", *std_go_args(ldflags: "-s -w", output: bin/"conduktor")
