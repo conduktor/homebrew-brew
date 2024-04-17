@@ -1,18 +1,18 @@
 cask "conduktor" do
   version "2.24.9"
-  sha256 ""
-    sha256 "fa9366619bbfcb3a56dc31514459403cd7c1b80fa64f5ee1ee90bc6cf978a89f"
-    url "https://github.com/conduktor/builds/releases/download/v#{version}/Conduktor-#{version}.pkg", verified: "github.com/conduktor/"
+  if Hardware::CPU.intel?
+    sha256 "06238788320f4e28d0985b52a30afcef41983c1a1b6e1690fc5297a38a1ffb68"
+    url "https://github.com/conduktor/builds/releases/download/v#{version}/Conduktor-#{version}-intel.pkg", verified: "github.com/conduktor/"
+    pkg "Conduktor-#{version}-intel.pkg"
   else
-    sha256 "fa9366619bbfcb3a56dc31514459403cd7c1b80fa64f5ee1ee90bc6cf978a89f"
-    url "https://github.com/conduktor/builds/releases/download/v#{version}/Conduktor-#{version}.pkg", verified: "github.com/conduktor/"
+    sha256 "34ade35bfcd493f0f319740550e86dcba06dc6f149f245e007a750f666789721"
+    url "https://github.com/conduktor/builds/releases/download/v#{version}/Conduktor-#{version}-apple-silicon.pkg", verified: "github.com/conduktor/"
+    pkg "Conduktor-#{version}-apple-silicon.pkg"
   end
 
   name "conduktor"
   desc "Beautiful desktop application to manage an Apache Kafka ecosystem"
   homepage "https://www.conduktor.io/"
-
-  pkg "Conduktor-#{version}.pkg"
 
   uninstall pkgutil: [
     "io.conduktor.app.Conduktor",
