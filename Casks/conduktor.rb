@@ -1,11 +1,11 @@
 cask "conduktor" do
   version "2.24.9"
   if Hardware::CPU.intel?
-    sha256 "06238788320f4e28d0985b52a30afcef41983c1a1b6e1690fc5297a38a1ffb68"
+    sha256 "b0b1d7fe37ad5965e9d0afd93403cd6aa9f26c59539a7a7a17a119f673220d6a"
     url "https://github.com/conduktor/builds/releases/download/v#{version}/Conduktor-#{version}-intel.pkg", verified: "github.com/conduktor/"
     pkg "Conduktor-#{version}-intel.pkg"
   else
-    sha256 "34ade35bfcd493f0f319740550e86dcba06dc6f149f245e007a750f666789721"
+    sha256 "92affe720d8f091c9e90cee11792427a92a4904c37011a26c10905686ef692a6"
     url "https://github.com/conduktor/builds/releases/download/v#{version}/Conduktor-#{version}-apple-silicon.pkg", verified: "github.com/conduktor/"
     pkg "Conduktor-#{version}-apple-silicon.pkg"
   end
