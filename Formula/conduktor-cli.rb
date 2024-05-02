@@ -10,7 +10,7 @@ class ConduktorCli < Formula
   depends_on "go" => :build
 
   def install
-    gitSha = "cfe543ad0a649d22474c01dba52961b7351228d4"
+    gitSha = "deafbcd68edb2f324cfdacf55ee9fac1de1ff942"
     system "go", "build", *std_go_args(ldflags: "-s -w -X 'github.com/conduktor/ctl/utils.version=#{version}' -X 'github.com/conduktor/ctl/utils.hash=#{gitSha}'", output: bin/"conduktor")
   end
 
