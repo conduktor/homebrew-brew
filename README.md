@@ -4,7 +4,7 @@
 
 This is a custom [Homebrew](https://brew.sh) tap for official Conduktor software: Conduktor CLI (and former Conduktor Desktop).
 
-@# Get Started
+## Get Started
 
 Add the custom tap in a MacOS terminal session using:
 
