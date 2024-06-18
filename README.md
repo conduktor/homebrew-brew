@@ -1,31 +1,37 @@
-<img src="https://www.conduktor.io/uploads/conduktor.svg" width="256"> <img src="https://brew.sh/assets/img/homebrew-256x256.png" height="72">
+[<img src="https://www.conduktor.io/uploads/conduktor.svg" width="256"> <img src="https://brew.sh/assets/img/homebrew-256x256.png" height="72">
 
 # The Conduktor Homebrew Tap
 
-This is a custom [Homebrew](https://brew.sh) tap for official Conduktor software.
+This is a custom [Homebrew](https://brew.sh) tap for official Conduktor software: Conduktor CLI (and former Conduktor Desktop).
 
-## Setup
+@# Get Started
 
-You can add the custom tap in a MacOS terminal session using:
+Add the custom tap in a MacOS terminal session using:
 
 ```
 $ brew tap conduktor/brew
 ```
 
-## Install Conduktor
+## Install Conduktor CLI
 
-Once the tap has been added, use the instructions below to install [Conduktor](https://conduktor.io/): 
- 
+Conduktor CLI gives you the ability to perform some operations directly from your command line or a CI/CD pipeline.
+Check the [reference](https://docs.conduktor.io/platform/reference/cli-reference/) documentation.
+
+```bash
+# For the first time
+$ brew install conduktor-cli
+
+# If you already installed it
+$ brew update conduktor-cli
+```
+
+
+## Install Conduktor Desktop
+
+This is our former Conduktor Desktop product (a Desktop Kafka UI):
+
 ```
 $ brew install conduktor
-```
-
-## Uninstalling Conduktor
-
-If you need to uninstall Conduktor, use:
-
-```
-$ brew uninstall conduktor
 ```
 
 ## The Documentation
@@ -41,3 +47,4 @@ This tap was created using the Homebrew documentation on [How to Create and Main
 You can find additional information in the [Homebrew project README](https://github.com/Homebrew/brew#homebrew).
 
 If you're having issues with Conduktor please [contact us](https://www.conduktor.io/contact/).
+](https://docs.conduktor.io/platform/reference/cli-reference/)
