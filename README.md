@@ -15,6 +15,7 @@ $ brew tap conduktor/brew
 ## Install Conduktor CLI
 
 Conduktor CLI gives you the ability to perform some operations directly from your command line or a CI/CD pipeline.
+
 Check the [reference](https://docs.conduktor.io/platform/reference/cli-reference/) documentation.
 
 ```bash
@@ -40,11 +41,6 @@ For more information, please reference the following documentation:
 
 * [The Conduktor documentation](https://docs.conduktor.io/)
 
-## Additional Information and Problem Reporting
-
-This tap was created using the Homebrew documentation on [How to Create and Maintain a tap](https://github.com/Homebrew/brew/blob/master/docs/How-to-Create-and-Maintain-a-Tap.md).
-
-You can find additional information in the [Homebrew project README](https://github.com/Homebrew/brew#homebrew).
+## Contact
 
 If you're having issues with Conduktor please [contact us](https://www.conduktor.io/contact/).
-](https://docs.conduktor.io/platform/reference/cli-reference/)
