@@ -1,4 +1,4 @@
-[<img src="https://www.conduktor.io/svgs/logo/black.svg" width="256"> <img src="https://brew.sh/assets/img/homebrew-256x256.png" height="72">
+<img src="https://www.conduktor.io/svgs/logo/black.svg" width="256"> <img src="https://brew.sh/assets/img/homebrew-256x256.png" height="72">
 
 # The Conduktor Homebrew Tap
 
