@@ -4,7 +4,7 @@ class ConduktorCli < Formula
 
   desc "Conduktor CLI performs operations from your terminal or a CI/CD pipeline"
   homepage "https://www.conduktor.io/"
-  url "https://github.com/conduktor/ctl/archive/refs/tags/v#{version}.tar.gz", verified: "https://github.com/conduktor"
+  url "https://github.com/conduktor/ctl/archive/refs/tags/#{version}.tar.gz", verified: "https://github.com/conduktor"
   license "Apache-2.0"
   head "https://github.com/conduktor/ctl.git", branch: "main"
 
