@@ -1,5 +1,5 @@
 class ConduktorCli < Formula
-  version "0.3.0"
+  version "v0.3.0"
   sha256 "2a756ddf3c774d30d2b8a50c37072ae68974ecc6a155c0963813fc080bc6491b"
 
   desc "Conduktor CLI performs operations from your terminal or a CI/CD pipeline"
