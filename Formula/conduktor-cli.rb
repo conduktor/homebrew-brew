@@ -1,6 +1,6 @@
 class ConduktorCli < Formula
-  version "0.7.1"
-  sha256 "1a1b62b1736c5906219ec720f24c3ff0ec16dd94bd935622cd0cec152b646e56"
+  version "0.8.0"
+  sha256 "68113de5f2fc67c71a8abe006fb7c7b8dc440d0c3ca2968ce92d956068baec93"
 
   desc "Conduktor CLI performs operations from your terminal or a CI/CD pipeline"
   homepage "https://www.conduktor.io/"
@@ -11,7 +11,7 @@ class ConduktorCli < Formula
   depends_on "go" => :build
 
   def install
-    gitSha = "844fc8812559ac7d8f8517797e137d2370482d9e"
+    gitSha = "11d77ca6cd64ffae3fa98056b9aa75e90774b07e"
     system "go", "build", *std_go_args(ldflags: "-s -w -X 'github.com/conduktor/ctl/internal/utils.version=#{version}' -X 'github.com/conduktor/ctl/internal/utils.hash=#{gitSha}'", output: bin/"conduktor")
   end
 
